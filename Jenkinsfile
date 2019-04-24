@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building..'
-                sh 'java -version'
+                sh 'hostname'
             }
         }
         stage('Test') {
