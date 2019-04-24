@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building..'
-                bat 'hostname'
+                bat 'notepad'
             }
         }
         stage('Test') {
