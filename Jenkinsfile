@@ -5,6 +5,7 @@ pipeline {
       steps {
         echo 'Building..'
         echo 'now'
+        docker ps
       }
     }
     stage('Test') {
